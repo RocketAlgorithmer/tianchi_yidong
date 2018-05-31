@@ -13,4 +13,7 @@ xgb.py
 
 forfast文件夹下run1，run2,run3的python文件是吧gen_data.py中训练集，验证集和测试集的分割分成3个程序，这样在多核电脑中可以分别运行三个文件以更快切分数据集
 
+feature_important
+![](https://github.com/q157281022/tianchi_yidong/blob/master/feature_importance.png)
+
 
