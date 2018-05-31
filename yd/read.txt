@@ -1,0 +1,41 @@
+1	'Y051906PM44'
+
+pos=1	thr850 f1 4.04
+
+2	'Y052008PM08'
+init_param = {
+	'max_depth': 8,
+	'eta': 0.01,
+	'silent': 1,
+	'seed': 13,
+	'objective': 'binary:logistic',#'multi:softmax'
+	#'num_class':10,
+	'eval_metric': 'auc',
+	'scale_pos_weight': 5,#n/p
+	'subsample': 0.8,
+	'colsample_bytree': 0.7,
+	'min_child_weight': 100,
+	'max_delta_step': 20,
+	'nthread':10
+	}
+	
+thrmax=0.66	thr750=0.04 num434 f1=5.552
+
+3	Y052109AM58
+init_param = {
+	'max_depth': 8,
+	'eta': 0.01,
+	'silent': 1,
+	'seed': 13,
+	'objective': 'binary:logistic',#'multi:softmax'
+	#'num_class':10,
+	'eval_metric': 'auc',
+	'scale_pos_weight': 5,#n/p
+	'subsample': 0.8,
+	'colsample_bytree': 0.7,
+	'min_child_weight': 1,
+	'max_delta_step': 20,
+	'nthread':50
+	}
+
+thrmax=0.97	thr750=0.0039	num804	f1=7.06
